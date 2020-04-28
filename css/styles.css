@@ -1,0 +1,153 @@
+body{
+  margin: 0;
+  font-family: 'Inter';
+}
+p{
+  display: inline;
+}
+h2,h3,h5 {
+  margin-left: 15px;
+}
+h1, h2{
+  color: hsl(230, 17%, 14%);
+  font-weight: 700;
+}
+h3, h4, h5, p {
+  color: hsl(228, 12%, 44%);
+  font-weight: 700;
+}
+h1{
+  font-size: 4em;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+h2{
+  margin-bottom: 0;
+}
+h4{
+  font-weight: 400;
+  margin-top: 5px;
+  margin-bottom: 35px;
+}
+h5{
+  margin-top: 5px;
+  font-size: 14px;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+.arrow, .big_box_icon, .small_box_icon {
+  display: inline;
+  position: relative;
+}
+.big_box_icon{
+  position: relative;
+  top: 4px;
+  margin-right: 5px;
+}
+.green{
+  bottom: 5px;
+}
+.red{
+}
+.down {
+  color: hsl(356, 69%, 56%);
+}
+.up {
+  color: hsl(163, 72%, 41%);
+}
+.box{
+  display: inline-block;
+  width: 333px;
+  margin: 15px;
+}
+.big{
+  text-align: center;
+  position: relative;
+  border-radius: 0 0 .5vh .5vh;
+  padding: 25px 5px 30px;
+}
+.facebook{
+}
+.facebook:before, .facebook:after {
+  content: "";
+  position: absolute;
+  border-radius: .5vh .5vh 1vh 1vh;
+}
+.facebook:before {
+  top: -3px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: hsl(195, 100%, 50%);
+  z-index: -2;
+}
+.facebook:after {
+  z-index: -1;
+}
+.twitter{
+}
+.twitter:before, .twitter:after {
+  content: "";
+  position: absolute;
+  border-radius: .5vh .5vh 1vh 1vh;
+}
+.twitter:before {
+  top: -3px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: hsl(203, 89%, 53%);
+  z-index: -2;
+}
+.twitter:after {
+  z-index: -1;
+}
+.insta{
+}
+.insta:before, .insta:after {
+  content: "";
+  position: absolute;
+  border-radius: .5vh .5vh 1vh 1vh;
+}
+.insta:before {
+  top: -3px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: -webkit-linear-gradient(left, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+  z-index: -2;
+}
+.insta:after {
+  z-index: -1;
+}
+.youtube{
+}
+.youtube:before, .youtube:after {
+  content: "";
+  position: absolute;
+  border-radius: .5vh .5vh 1vh 1vh;
+}
+.youtube:before {
+  top: -3px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: hsl(348, 97%, 39%);
+  z-index: -2;
+}
+.youtube:after {
+  z-index: -1;
+}
+.small{
+  text-align: left;
+}
+.small_box_icon {
+  position: relative;
+}
+.heading_div, .big_box_container, .small_box_container {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.box{
+  background: hsl(227, 47%, 96%);
+}
